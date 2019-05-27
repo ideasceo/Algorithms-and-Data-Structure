@@ -36,7 +36,7 @@ bool Stack::adding(int x)
 {
 	if (isFull())
 	{
-		cout << "OH dear!!!! No element can be inserted because the stack is full now." << endl;
+		cout << "No element can be inserted because the stack is full now." << endl;
 		return false;
 	}
 	else
@@ -51,7 +51,7 @@ int Stack::removing()
 {
 	if (isEmpty())
 	{
-		cout << "Oh dear!!! No element is present in stack." << endl;
+		cout << "No element is present in stack." << endl;
 		return 0;
 	}
 	else
