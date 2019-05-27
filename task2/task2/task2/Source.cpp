@@ -10,6 +10,7 @@ inputs to determine if it does or does not improve performance in practice.
 */
 
 #include <iostream>
+// Chrono is a library to count time of execution
 #include <chrono>
 using namespace std;
 
